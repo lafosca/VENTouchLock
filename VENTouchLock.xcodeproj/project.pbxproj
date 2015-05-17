@@ -49,9 +49,6 @@
 /* Begin PBXFileReference section */
 		391417AB1B07E19A00881810 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
 		3919263F1B07C9F2009571AC /* SSKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSKeychain.framework; path = Carthage/Build/iOS/SSKeychain.framework; sourceTree = "<group>"; };
-		39443ADF1B080A32005F246C /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
-		39443AE11B080A7E005F246C /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/iOS/Expecta.framework; sourceTree = "<group>"; };
-		39443AE31B080A93005F246C /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Specta.framework; path = Carthage/Build/iOS/Specta.framework; sourceTree = "<group>"; };
 		39BD57221B07E54600A2C6BC /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/iOS/Expecta.framework; sourceTree = "<group>"; };
 		39BD57231B07E54600A2C6BC /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Specta.framework; path = Carthage/Build/iOS/Specta.framework; sourceTree = "<group>"; };
 		3A03EAC919C4F4E40095708C /* VENTouchLockTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VENTouchLockTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -129,9 +126,6 @@
 		3A709A6619BE67D800AC9238 = {
 			isa = PBXGroup;
 			children = (
-				39443AE31B080A93005F246C /* Specta.framework */,
-				39443AE11B080A7E005F246C /* Expecta.framework */,
-				39443ADF1B080A32005F246C /* OCMock.framework */,
 				3A709A7219BE67D800AC9238 /* VENTouchLock */,
 				3A709A7C19BE67D800AC9238 /* VENTouchLockTests */,
 				3A709A7119BE67D800AC9238 /* Products */,
