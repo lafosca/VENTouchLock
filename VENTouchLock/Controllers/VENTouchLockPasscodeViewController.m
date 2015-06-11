@@ -45,7 +45,7 @@ static const NSInteger VENTouchLockViewControllerPasscodeLength = 4;
 {
     [super viewDidAppear:animated];
     if (![self.invisiblePasscodeField isFirstResponder]) {
-        [self.invisiblePasscodeField becomeFirstResponder];
+        [self.invisiblePasscodeField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0.125f];
     }
 }
 
